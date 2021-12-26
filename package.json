@@ -9,6 +9,9 @@
     "lint:fix": "eslint --ignore-path .gitignore src/**/*.{ts,tsx} --fix",
     "format": "prettier --write src/**/*.{ts,tsx}"
   },
+  "engines": {
+    "npm": "Please use yarn instead"
+  },
   "dependencies": {
     "next": "12.0.7",
     "react": "17.0.2",
