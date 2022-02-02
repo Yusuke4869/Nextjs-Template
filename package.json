@@ -12,8 +12,11 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "yarn lint:fix",
+      "yarn format"
+    ],
+    "*.{css,sass,scss}": [
       "yarn format"
     ]
   },

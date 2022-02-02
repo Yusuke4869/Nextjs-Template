@@ -22,6 +22,11 @@
   "settings": {},
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }]
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "hrefLeft", "hrefRight" ],
+      "aspects": [ "invalidHref", "preferButton" ]
+    }]
   }
 }
