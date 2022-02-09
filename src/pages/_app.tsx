@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
 
-import * as gtag from "lib/gtag";
+import * as gtag from "libs/gtag";
 
 import "styles/global.scss";
 
