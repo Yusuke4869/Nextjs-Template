@@ -1,8 +1,8 @@
 import type { FC, ReactNode } from "react";
 import Head from "next/head";
 
-import Header from "components/Header";
-import Footer from "components/Footer";
+import Header from "~/components/layout/header";
+import Footer from "~/components/layout/footer";
 
 interface Information {
   PageTitle: string;
