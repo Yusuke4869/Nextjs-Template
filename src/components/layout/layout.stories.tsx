@@ -6,9 +6,9 @@ type T = typeof Layout;
 type Story = ComponentStoryObj<T>;
 
 const data = {
-  PageTitle: "Hello World",
-  PageDescription: "ページ説明",
-  PageImage: "https://example.com",
+  pageTitle: "Hello World",
+  pageDescription: "ページ説明",
+  pageImage: "https://example.com",
   children: "content",
 };
 
@@ -16,19 +16,19 @@ export default {
   component: Layout,
   args: { ...data },
   argTypes: {
-    PageTitle: {
+    pageTitle: {
       description: "ページタイトル",
       control: {
         type: "text",
       },
     },
-    PageDescription: {
+    pageDescription: {
       description: "ページ説明",
       control: {
         type: "text",
       },
     },
-    PageImage: {
+    pageImage: {
       description: "OGP Image URL",
       control: {
         type: "text",
