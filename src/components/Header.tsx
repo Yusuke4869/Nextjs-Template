@@ -1,9 +1,9 @@
 import type { FC } from "react";
 
 const Header: FC = () => (
-  <div>
+  <header>
     <p>Header</p>
-  </div>
+  </header>
 );
 
 export default Header;
