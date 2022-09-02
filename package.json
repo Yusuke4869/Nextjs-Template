@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx} --fix",
