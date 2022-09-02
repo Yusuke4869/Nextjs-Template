@@ -46,6 +46,7 @@
     "@storybook/manager-webpack5": "^6.5.10",
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
     "@types/node": "17.0.18",
     "@types/react": "17.0.39",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
