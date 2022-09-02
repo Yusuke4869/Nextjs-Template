@@ -10,10 +10,10 @@ interface Information {
 }
 
 type Props = {
+  children: ReactNode;
   pageTitle: string;
   pageDescription?: string;
   pageImage?: string;
-  children: ReactNode;
 };
 
 const DefaultDescription = "";
@@ -55,7 +55,7 @@ const TwitterMetas: FC<Information> = ({ pageTitle, pageDescription, pageImage }
   </>
 );
 
-const Layout: FC<Props> = ({ pageTitle, children, pageDescription = DefaultDescription, pageImage = DefaultImage }) => (
+const Layout: FC<Props> = ({ children, pageTitle, pageDescription = DefaultDescription, pageImage = DefaultImage }) => (
   <>
     <Head>
       <title>{pageTitle}</title>
@@ -73,10 +73,5 @@ const Layout: FC<Props> = ({ pageTitle, children, pageDescription = DefaultDescr
     </main>
   </>
 );
-
-Layout.defaultProps = {
-  pageDescription: DefaultDescription,
-  pageImage: DefaultImage,
-};
 
 export default Layout;
