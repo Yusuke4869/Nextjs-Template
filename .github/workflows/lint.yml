@@ -1,14 +1,13 @@
-name: Test
+name: Lint
 on: [push, pull_request]
 
 env:
   HUSKY: 0
   node-version: lts/*
-  TZ: Asia/Tokyo
 
 jobs:
-  test:
-    name: Test
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,5 +21,8 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Test
-        run: yarn run test
+      - name: Lint
+        run: yarn run lint --max-warnings=0
+
+      - name: Style Lint
+        run: yarn run stylelint --max-warnings=0

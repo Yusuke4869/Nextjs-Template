@@ -1,14 +1,13 @@
-name: Test
+name: Format
 on: [push, pull_request]
 
 env:
   HUSKY: 0
   node-version: lts/*
-  TZ: Asia/Tokyo
 
 jobs:
-  test:
-    name: Test
+  format:
+    name: Format
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,5 +21,5 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Test
-        run: yarn run test
+      - name: Format
+        run: yarn run format:check
