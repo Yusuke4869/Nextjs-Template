@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) layout Snap Shot 1`] = `
+<div>
+  <main>
+    <div>
+      <header>
+        <p>
+          Header
+        </p>
+      </header>
+      content
+    </div>
+    <footer>
+      <p>
+        Footer
+      </p>
+    </footer>
+  </main>
+</div>
+`;
