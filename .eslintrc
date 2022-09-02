@@ -23,6 +23,7 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
+    "import/no-extraneous-dependencies": ["off", { "devDependencies": ["**/*.stories.{js,ts}"] }],
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
