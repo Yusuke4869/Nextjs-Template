@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "eslint --ignore-path .gitignore src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --ignore-path .gitignore src/**/*.{js,jsx,ts,tsx} --fix",
+    "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
+    "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
     "format": "prettier --ignore-path .gitignore --write --ignore-unknown .",
     "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown .",
     "storybook": "start-storybook -p 6006",
@@ -57,6 +59,11 @@
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "sass": "^1.49.8",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "stylelint-prettier": "^2.0.0",
     "typescript": "4.5.5"
   }
 }
