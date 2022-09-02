@@ -39,7 +39,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
-    "@next/eslint-plugin-next": "^12.1.0",
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-interactions": "^6.5.10",
