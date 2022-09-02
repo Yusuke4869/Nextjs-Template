@@ -1,3 +1,4 @@
+import "destyle.css";
 import "~/styles/global.scss";
 
 export const parameters = {
