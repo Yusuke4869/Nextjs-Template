@@ -1,5 +1,5 @@
-# Template of Next.js  
+# Template of Next.js
 
-## License  
+## License
 
-MIT  
+MIT
