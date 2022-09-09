@@ -1,4 +1,5 @@
 import "destyle.css";
+import { RouterContext } from "next/dist/shared/lib/router-context";
 import "~/styles/global.scss";
 
 export const parameters = {
@@ -8,5 +9,8 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+  },
+  nextRouter: {
+    Provider: RouterContext.Provider,
   },
 };
