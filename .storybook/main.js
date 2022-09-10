@@ -5,14 +5,9 @@ module.exports = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-a11y",
-    "@storybook/addon-actions",
-    "@storybook/addon-backgrounds",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-links",
-    "@storybook/addon-measure",
-    "@storybook/addon-outline",
-    "@storybook/addon-viewport",
   ],
   framework: "@storybook/react",
   core: {
