@@ -9,6 +9,7 @@ yarn add -D autoprefixer postcss prettier-plugin-tailwindcss tailwindcss
 ```
 
 `src/styles/global.scss`
+
 ```diff
 + @import "tailwindcss/base";
 + @import "tailwindcss/components";
@@ -16,6 +17,7 @@ yarn add -D autoprefixer postcss prettier-plugin-tailwindcss tailwindcss
 ```
 
 `postcss.config.js`
+
 ```js
 module.exports = {
   plugins: {
@@ -26,6 +28,7 @@ module.exports = {
 ```
 
 `tailwind.config.js`
+
 ```js
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
@@ -37,6 +40,7 @@ module.exports = {
 ```
 
 `.prettierrc`
+
 ```diff
 + "plugins": ["prettier-plugin-tailwindcss"],
 ```
