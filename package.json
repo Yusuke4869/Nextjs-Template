@@ -28,6 +28,7 @@
       "yarn format"
     ]
   },
+  "packageManager": "yarn@3.5.0",
   "engines": {
     "node": "18.15.0",
     "npm": "Please use yarn instead"

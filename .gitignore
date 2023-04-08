@@ -37,6 +37,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+# yarn
+.yarn/*
+!.yarn/releases
+
 # git hook
 prepare-commit-msg
 
