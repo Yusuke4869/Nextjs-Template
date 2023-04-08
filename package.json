@@ -28,9 +28,10 @@
       "yarn format"
     ]
   },
-  "engines": {
+  "packageManager": "yarn@3.5.0",
+  "volta": {
     "node": "18.15.0",
-    "npm": "Please use yarn instead"
+    "yarn": "3.5.0"
   },
   "dependencies": {
     "destyle.css": "4.0.0",
