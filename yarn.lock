@@ -2691,17 +2691,19 @@ __metadata:
   linkType: hard
 
 "@storybook/addon-styling@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "@storybook/addon-styling@npm:1.0.1"
+  version: 1.0.5
+  resolution: "@storybook/addon-styling@npm:1.0.5"
   dependencies:
     "@storybook/api": ^7.0.2
     "@storybook/components": ^7.0.2
     "@storybook/core-events": ^7.0.2
     "@storybook/manager-api": ^7.0.2
+    "@storybook/node-logger": ^7.0.7
     "@storybook/preview-api": ^7.0.2
     "@storybook/theming": ^7.0.2
     "@storybook/types": ^7.0.2
     css-loader: ^6.7.3
+    less-loader: ^11.1.0
     postcss-loader: ^7.2.4
     resolve-url-loader: ^5.0.0
     sass-loader: ^13.2.2
@@ -2714,7 +2716,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: bf2ccc60c71d4adc1955ddabf7cf429ba002748f31f81a2be3059964d0c3838d051d909f18f33c2ab6481a566caabb03cb32f0ad58075f82bd4179aaee2453fc
+  checksum: 8889b53d347121d13dfb33a2a0fd2d84f74b8ab1133f40da129c4228ebea7d0062ddac9a696ae92206b3370705e227d83bf7ff71b363cf3fb8b6ecb6aa357656
   languageName: node
   linkType: hard
 
@@ -3397,7 +3399,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/node-logger@npm:7.0.7":
+"@storybook/node-logger@npm:7.0.7, @storybook/node-logger@npm:^7.0.7":
   version: 7.0.7
   resolution: "@storybook/node-logger@npm:7.0.7"
   dependencies:
@@ -9941,6 +9943,18 @@ __metadata:
     dotenv: ^16.0.0
     dotenv-expand: ^10.0.0
   checksum: 196e0d701100144fbfe078d604a477573413ebf38dfe8d543748605e6a7074978508a3bb9f8135acd319db4fa947eef78836497163617d15a22163c59a00996b
+  languageName: node
+  linkType: hard
+
+"less-loader@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "less-loader@npm:11.1.0"
+  dependencies:
+    klona: ^2.0.4
+  peerDependencies:
+    less: ^3.5.0 || ^4.0.0
+    webpack: ^5.0.0
+  checksum: 041216e0a6d95e24c9724f470719db3eb70b3888c45b1a1e9cd55edabe8ae79709522cd6c6713b466b3e9948544074e2a5b2be50ac3ced5ff41dfa9675f3b182
   languageName: node
   linkType: hard
 
