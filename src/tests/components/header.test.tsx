@@ -1,6 +1,6 @@
 import { composeStories } from "@storybook/testing-react";
 import { render } from "@testing-library/react";
-import * as stories from "~/components/layout/header/index.stories";
+import * as stories from "~/components/header/index.stories";
 
 const { Default } = composeStories(stories);
 
