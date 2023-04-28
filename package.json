@@ -25,13 +25,13 @@
       "yarn format"
     ],
     "src/**/*.{css,sass,scss}": [
+      "yarn stylelint:fix",
       "yarn format"
     ]
   },
   "packageManager": "yarn@3.5.0",
   "volta": {
-    "node": "18.16.0",
-    "yarn": "3.5.0"
+    "node": "18.16.0"
   },
   "dependencies": {
     "destyle.css": "4.0.0",
