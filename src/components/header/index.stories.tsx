@@ -1,9 +1,9 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import Header from ".";
 
 type T = typeof Header;
-type Story = ComponentStoryObj<T>;
+type Story = StoryObj<T>;
 
 const data = {};
 
@@ -11,6 +11,6 @@ export default {
   component: Header,
   args: { ...data },
   argTypes: {},
-} as ComponentMeta<T>;
+} as Meta<T>;
 
 export const Default: Story = {};
