@@ -16,11 +16,13 @@ const roboto = Roboto({
 });
 
 const Layout: FC<Props> = ({ children }) => (
-  <div className={roboto.className}>
-    <Header />
-    <main>{children}</main>
-    <Footer />
-  </div>
+  <html lang="ja">
+    <body className={roboto.className}>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </body>
+  </html>
 );
 
 export default Layout;
