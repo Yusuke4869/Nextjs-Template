@@ -2845,8 +2845,8 @@ __metadata:
   linkType: hard
 
 "@storybook/addon-styling@npm:^1.0.0":
-  version: 1.0.5
-  resolution: "@storybook/addon-styling@npm:1.0.5"
+  version: 1.0.6
+  resolution: "@storybook/addon-styling@npm:1.0.6"
   dependencies:
     "@storybook/api": ^7.0.2
     "@storybook/components": ^7.0.2
@@ -2870,7 +2870,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 8889b53d347121d13dfb33a2a0fd2d84f74b8ab1133f40da129c4228ebea7d0062ddac9a696ae92206b3370705e227d83bf7ff71b363cf3fb8b6ecb6aa357656
+  checksum: 856847edff85ee53bb2109c606cf21efd8b96b7d4876e07f4aefc33b73000787d0e609df3fc3bd9b31dbe77ab163ea81bf73c99272832239e6af6acfbd8acb16
   languageName: node
   linkType: hard
 
