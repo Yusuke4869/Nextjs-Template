@@ -72,7 +72,7 @@
     "lint-staged": "13.2.2",
     "prettier": "2.8.8",
     "sass": "1.62.1",
-    "sass-loader": "13.3.0",
+    "sass-loader": "13.3.1",
     "storybook": "7.0.18",
     "style-loader": "3.3.3",
     "stylelint": "15.6.2",
