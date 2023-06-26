@@ -2,7 +2,7 @@ import { Roboto } from "next/font/google";
 import type { FC, ReactNode } from "react";
 import Footer from "~/components/footer";
 import Header from "~/components/header";
-import "~/styles/global.scss";
+import "~/styles/globals.scss";
 
 type Props = {
   children: ReactNode;
