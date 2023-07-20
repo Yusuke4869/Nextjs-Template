@@ -59,7 +59,7 @@
     "eslint-config-airbnb-typescript": "17.1.0",
     "eslint-config-next": "13.4.10",
     "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-storybook": "0.6.12",
+    "eslint-plugin-storybook": "0.6.13",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
     "prettier": "2.8.8",
