@@ -4904,10 +4904,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.0":
-  version: 18.17.0
-  resolution: "@types/node@npm:18.17.0"
-  checksum: 3a43c5c5541342751b514485144818a515fac5427f663066068eaacbe8a108cbe1207aae75ec89d34c3b32414c334aad84e9083cf7fcf3ebfd970adc871314a4
+"@types/node@npm:18.17.1":
+  version: 18.17.1
+  resolution: "@types/node@npm:18.17.1"
+  checksum: 56201bda9a2d05d68602df63b4e67b0545ac8c6d0280bd5fb31701350a978a577a027501fbf49db99bf177f2242ebd1244896bfd35e89042d5bd7dfebff28d4e
   languageName: node
   linkType: hard
 
@@ -4967,14 +4967,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.16":
-  version: 18.2.16
-  resolution: "@types/react@npm:18.2.16"
+"@types/react@npm:18.2.17":
+  version: 18.2.17
+  resolution: "@types/react@npm:18.2.17"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 3d4fdc12509e0098e0dbb4bacdea53e8ccc6632e9df63d9f2711c77aa81ce3b2bb9c76d087f284034b25fd7245680167f4832bf6e4df960c5af2634b52adfd0c
+  checksum: 150516b31bd98b635e4a56bcf2af007330b35cccb6e35e902f46a47f0e81e30c46cdacc095e91051bdf2f33e4846e7e62fd51b67e064dc7d15c00e15dfa449d5
   languageName: node
   linkType: hard
 
@@ -11947,8 +11947,8 @@ __metadata:
     "@storybook/nextjs": 7.1.1
     "@storybook/react": 7.1.1
     "@trivago/prettier-plugin-sort-imports": 4.2.0
-    "@types/node": 18.17.0
-    "@types/react": 18.2.16
+    "@types/node": 18.17.1
+    "@types/react": 18.2.17
     "@typescript-eslint/eslint-plugin": 6.2.0
     "@typescript-eslint/parser": 6.2.0
     babel-loader: 9.1.3
