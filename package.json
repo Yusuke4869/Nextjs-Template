@@ -48,7 +48,7 @@
     "@storybook/nextjs": "7.4.1",
     "@storybook/react": "7.4.1",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
-    "@types/node": "18.17.15",
+    "@types/node": "18.17.16",
     "@types/react": "18.2.21",
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "@typescript-eslint/parser": "6.7.0",
