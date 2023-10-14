@@ -29,7 +29,7 @@
   },
   "packageManager": "yarn@3.6.4",
   "volta": {
-    "node": "18.18.1"
+    "node": "18.18.2"
   },
   "dependencies": {
     "destyle.css": "4.0.0",
