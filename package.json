@@ -72,6 +72,6 @@
     "stylelint-config-recess-order": "4.4.0",
     "stylelint-config-standard-scss": "11.1.0",
     "stylelint-prettier": "4.0.2",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   }
 }
