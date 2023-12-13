@@ -2,7 +2,7 @@ import { Noto_Sans_JP } from "next/font/google";
 
 import type { FC, ReactNode } from "react";
 
-import "~/styles/globals.scss";
+import "~/styles/globals.css";
 
 type Props = {
   children: ReactNode;
