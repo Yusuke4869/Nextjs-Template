@@ -39,7 +39,7 @@ module.exports = {
 };
 ```
 
-`.prettierrc`
+`.prettierrc.json`
 
 ```diff
 + "plugins": ["prettier-plugin-tailwindcss"],

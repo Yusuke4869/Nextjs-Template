@@ -11,8 +11,8 @@
     "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx} --fix",
     "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
     "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
-    "format": "prettier --ignore-path .gitignore --write --ignore-unknown ./src/**/*.{js,jsx,ts,tsx}",
-    "format:check": "prettier --ignore-path .gitignore --check --ignore-unknown ./src/**/*.{js,jsx,ts,tsx}",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install"
