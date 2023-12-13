@@ -1,28 +1,24 @@
-import { Roboto } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
+
 import type { FC, ReactNode } from "react";
-import Footer from "~/components/footer";
-import Header from "~/components/header";
+
 import "~/styles/globals.scss";
 
 type Props = {
   children: ReactNode;
 };
 
-const roboto = Roboto({
-  weight: "400",
-  style: ["normal"],
+const notoSansJp = Noto_Sans_JP({
   subsets: ["latin"],
-  display: "swap",
+  variable: "--font-noto-sans-jp",
 });
 
-const Layout: FC<Props> = ({ children }) => (
+const RootLayout: FC<Props> = ({ children }) => (
   <html lang="ja">
-    <body className={roboto.className}>
-      <Header />
+    <body className={notoSansJp.className}>
       <main>{children}</main>
-      <Footer />
     </body>
   </html>
 );
 
-export default Layout;
+export default RootLayout;
