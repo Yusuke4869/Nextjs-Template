@@ -8,7 +8,7 @@ This is my Next.js Template.
 yarn add -D autoprefixer postcss prettier-plugin-tailwindcss tailwindcss
 ```
 
-`src/styles/global.scss`
+`src/styles/globals.css`
 
 ```diff
 + @import "tailwindcss/base";
