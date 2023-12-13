@@ -9,8 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
-    "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
+    "stylelint": "stylelint src/**/*.css",
+    "stylelint:fix": "stylelint --fix src/**/*.css",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky install"
@@ -43,11 +43,9 @@
     "sass": "1.69.5",
     "sass-loader": "13.3.2",
     "style-loader": "3.3.3",
-    "stylelint": "15.11.0",
-    "stylelint-config-prettier": "9.0.5",
-    "stylelint-config-recess-order": "4.4.0",
-    "stylelint-config-standard-scss": "11.1.0",
-    "stylelint-prettier": "4.1.0",
+    "stylelint": "^16.0.2",
+    "stylelint-config-standard": "^35.0.0",
+    "stylelint-prettier": "^5.0.0",
     "typescript": "5.3.3"
   }
 }
