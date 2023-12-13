@@ -7,23 +7,13 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx}",
-    "lint:fix": "eslint --ignore-path .gitignore ./src/**/*.{js,jsx,ts,tsx} --fix",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "stylelint": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss}",
     "stylelint:fix": "stylelint --ignore-path .gitignore ./src/**/*.{css,scss} --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky install"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "yarn lint:fix",
-      "yarn format"
-    ],
-    "src/**/*.{css,sass,scss}": [
-      "yarn stylelint:fix",
-      "yarn format"
-    ]
   },
   "packageManager": "yarn@3.7.0",
   "volta": {
@@ -37,18 +27,16 @@
   },
   "devDependencies": {
     "@babel/core": "7.23.6",
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/node": "20.10.4",
     "@types/react": "18.2.45",
-    "@typescript-eslint/eslint-plugin": "6.14.0",
-    "@typescript-eslint/parser": "6.14.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
     "babel-loader": "9.1.3",
     "css-loader": "6.8.1",
-    "eslint": "8.55.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-airbnb-typescript": "17.1.0",
-    "eslint-config-next": "14.0.4",
-    "eslint-config-prettier": "9.1.0",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
     "prettier": "3.1.1",
