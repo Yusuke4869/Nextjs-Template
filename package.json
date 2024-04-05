@@ -38,7 +38,7 @@
     "@types/node": "20.12.4",
     "@types/react": "18.2.74",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "eslint": "^8.55.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^14.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
