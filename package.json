@@ -17,7 +17,7 @@
     "build-storybook": "storybook build",
     "prepare": "husky install"
   },
-  "packageManager": "yarn@4.3.0",
+  "packageManager": "yarn@4.3.1",
   "volta": {
     "node": "20.15.0"
   },
