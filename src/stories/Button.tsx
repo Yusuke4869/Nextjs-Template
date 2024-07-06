@@ -34,7 +34,7 @@ export const Button = ({ primary = false, size = "medium", backgroundColor, labe
       {label}
       <style jsx>{`
         button {
-          background-color: ${backgroundColor};
+          background-color: ${backgroundColor ?? "white"};
         }
       `}</style>
     </button>
