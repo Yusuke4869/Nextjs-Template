@@ -26,7 +26,7 @@
     }
   },
   "rules": {
-    "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
+    "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/prefer-nullish-coalescing": "error",
     "import/consistent-type-specifier-style": "error",
