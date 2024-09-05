@@ -4,6 +4,6 @@ const buildEslintCommand = (filenames) =>
   `next lint --fix --file ${filenames.map((f) => path.relative(process.cwd(), f)).join(" --file ")}`;
 
 module.exports = {
-  "*.{js,jsx,ts,tsx}": [buildEslintCommand, "yarn format"],
-  "*.css": ["yarn stylelint:fix", "yarn format"],
+  "*.{js,ts,tsx}": [buildEslintCommand, "pnpm format"],
+  "*.css": ["pnpm format"],
 };
