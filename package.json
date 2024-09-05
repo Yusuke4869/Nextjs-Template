@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
+    "lint": "next lint --fix && prettier --write .",
+    "lint:check": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "check": "next lint && prettier --check .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky"
