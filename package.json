@@ -8,8 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "stylelint": "stylelint src/**/*.css",
-    "stylelint:fix": "stylelint --fix src/**/*.css",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "storybook": "storybook dev -p 6006",
@@ -48,9 +46,6 @@
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.3",
     "storybook": "^7.6.4",
-    "stylelint": "^16.0.2",
-    "stylelint-config-standard": "^36.0.0",
-    "stylelint-prettier": "^5.0.0",
     "typescript": "^5.5.3"
   }
 }
