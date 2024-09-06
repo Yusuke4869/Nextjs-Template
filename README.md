@@ -1,11 +1,11 @@
 # Template of Next.js
 
-This is my Next.js Template.
+My Next.js Template.
 
 ## with Tailwind CSS
 
 ```bash
-yarn add -D autoprefixer postcss prettier-plugin-tailwindcss tailwindcss
+pnpm add -D tailwindcss postcss autoprefixer prettier-plugin-tailwindcss
 ```
 
 `src/styles/globals.css`
@@ -27,16 +27,20 @@ module.exports = {
 };
 ```
 
-`tailwind.config.js`
+`tailwind.config.ts`
 
-```js
-module.exports = {
-  content: ["./src/**/*.{ts,tsx}"],
+```ts
+import type { Config } from "tailwindcss";
+
+const config = {
+  content: ["./src/**/*.tsx"],
   theme: {
     extend: {},
   },
   plugins: [],
-};
+} satisfies Config;
+
+export default config;
 ```
 
 `.prettierrc.json`
