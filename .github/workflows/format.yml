@@ -1,9 +1,6 @@
 name: format
 on: [push, pull_request]
 
-env:
-  HUSKY: 0
-
 jobs:
   format:
     name: format
