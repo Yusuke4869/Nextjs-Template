@@ -1,6 +1,6 @@
 # Template of Next.js
 
-My Next.js Template.
+My Next.js Template
 
 ## with Tailwind CSS
 
@@ -10,10 +10,10 @@ pnpm add -D tailwindcss postcss autoprefixer prettier-plugin-tailwindcss
 
 `src/styles/globals.css`
 
-```diff
-+ @import "tailwindcss/base";
-+ @import "tailwindcss/components";
-+ @import "tailwindcss/utilities";
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 
 `postcss.config.js`
