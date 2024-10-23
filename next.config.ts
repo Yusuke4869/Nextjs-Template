@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
-module.exports = {
+import type { NextConfig } from "next";
+
+const config = {
   crossOrigin: "anonymous",
   logging: {
     fetches: {
@@ -8,4 +9,6 @@ module.exports = {
   },
   output: "standalone",
   poweredByHeader: false,
-};
+} satisfies NextConfig;
+
+export default config;
