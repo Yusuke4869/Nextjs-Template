@@ -47,7 +47,7 @@ importers:
         version: 2.31.0(@typescript-eslint/parser@8.19.1(eslint@8.57.1)(typescript@5.7.3))(eslint-import-resolver-typescript@3.7.0)(eslint@8.57.1)
       lefthook:
         specifier: ^1.8.0
-        version: 1.10.2
+        version: 1.10.4
       prettier:
         specifier: ^3.3.3
         version: 3.4.2
@@ -1161,58 +1161,58 @@ packages:
     resolution: {integrity: sha512-MbjN408fEndfiQXbFQ1vnd+1NoLDsnQW41410oQBXiyXDMYH5z505juWa4KUE1LqxRC7DgOgZDbKLxHIwm27hA==}
     engines: {node: '>=0.10'}
 
-  lefthook-darwin-arm64@1.10.2:
-    resolution: {integrity: sha512-M+DDXn9g260hmCYXrfapNylAMz9RZBK0kEZveUjRw6LraJzxYWF5ZdfJceUAhxhP6R2VHgkiLpIhiMYx8UxsAw==}
+  lefthook-darwin-arm64@1.10.4:
+    resolution: {integrity: sha512-ARVuQwMFkKBy++2W4ACwCf5oy93qfOs0KKjJM1ssvgLB25MtJQeIhEoJ10sPXYkEnLZnEkfAtX4womVEjCXyXw==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.10.2:
-    resolution: {integrity: sha512-mRVfxAbZ3E8cuuV+oASPX4EpX2I7inxZYrcOhUP3D70SlMTZjQZ2UsRxa1UKj7vGLCGy7vIRleBjPqNt0qDhPA==}
+  lefthook-darwin-x64@1.10.4:
+    resolution: {integrity: sha512-KQw7nPtdF3+Bf9UQMdME2jzEu9KJJhAt5SdS9/JTDcfXTwBd1tz3l1bQT4BmvP2Du3XqSvgttWCrhGfIkfO9mw==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.10.2:
-    resolution: {integrity: sha512-62n7gmG3cJsHzBUlBYcs8hFERL6BLe81QrLzI5jUOVcfeA8PZnMJwvhbvj6e85syEXhOy1WhIAvQfwJgW7nlig==}
+  lefthook-freebsd-arm64@1.10.4:
+    resolution: {integrity: sha512-BMXbiB6cF8Cr8pyE3r/hPzBMZJqTNZ4dwC5w/RQTvori5kow8kDgiby2pNVq3gaYvyg4TpXccc8dGgjQoOBHRQ==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.10.2:
-    resolution: {integrity: sha512-6fH+7jgyRFIBfyijUQeIgWIrIcCb272l4P7CY7hP47M+CA3YFm2I4y9/pjumvfQ3GI+8+nGlF6SyQf+GMYOG9w==}
+  lefthook-freebsd-x64@1.10.4:
+    resolution: {integrity: sha512-ClXTNqa4DyXJjZ2u8SINx4XxHWOvJ7FFbtqPl+NJiPmToRZ/nYVaeZakgHTblupB3z/xggiPAKdlKbqABELCzw==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.10.2:
-    resolution: {integrity: sha512-f5v3jIVSoZ5rNkAWMxv3opZAQikravNEidT086nD05XZiASd8RBTf8scVHII4scM3fKzmkieUFHCzgkQ3bbsxQ==}
+  lefthook-linux-arm64@1.10.4:
+    resolution: {integrity: sha512-DyBOXztZSlbMJaQzZ41d+FKgYMC1RzJqHeHFjGMKGNF1Q8eUfW1gGhrBM7yfSJIFAuqOCUK6fw7hI5l7YbOLuQ==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.10.2:
-    resolution: {integrity: sha512-bKpMa6XUTgcWn7dhGc3Dkv9Var2+v2/IdCDlrVD2PPvEao3jqI/oMNlv8UyJnl4R0FZ0Zdbs0D0ZTH1cGnUv9g==}
+  lefthook-linux-x64@1.10.4:
+    resolution: {integrity: sha512-V3U/8rs1/6nCmghs4YRGdxPonTLVtvs/W3Ji6UQXFqGLeNAhlhTj2XTYko+vY2QfmavThBpqOtw36Line+d6iw==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-openbsd-arm64@1.10.2:
-    resolution: {integrity: sha512-mCIKmQistOljIdQLmUte7OKQkKgqEGNxMaEZRX46l1sEEx3E0OxjtA4vNaGa6riosb78ZkS3MkfxOCwzUkoaZg==}
+  lefthook-openbsd-arm64@1.10.4:
+    resolution: {integrity: sha512-+vCvGHqf5qqijbBgjBaQBzV4Mpl16UIgw0QQmnS0oYiaL5HQND3KPSA/bsLnoXe9UWvpIQY4GfMVpqhdl2HN4Q==}
     cpu: [arm64]
     os: [openbsd]
 
-  lefthook-openbsd-x64@1.10.2:
-    resolution: {integrity: sha512-XArFNPQdcYuCo5ipl7IVHS9PTvVikUQNkzMLImSL765fUSSrKRhC/woOIMMmA9f28a8UP2xMPwrpdLJhgLnw8Q==}
+  lefthook-openbsd-x64@1.10.4:
+    resolution: {integrity: sha512-kvHxriC02YQY9egRD43uzMA7Y/VWo+CzcW894ovpmROOCmmipydDoWPoEd+kknyYyNmntXhXgebAopCy/ZOr8A==}
     cpu: [x64]
     os: [openbsd]
 
-  lefthook-windows-arm64@1.10.2:
-    resolution: {integrity: sha512-IU7Y4TBP9f+ZS5lQYrdqqm3YcUUHauCOoIVWmmWiivD8nBHiezm//ED+AFloHQaplDmyHgJxHcPMSKL0zOnT+Q==}
+  lefthook-windows-arm64@1.10.4:
+    resolution: {integrity: sha512-jSta3l7gYjZWCytvmEC039XXbuvJiZO8hawR3B6nWZFgjaYA0ECS6/fdxuz1kGxd1zMDrvnFoOeTcSGQwHGmaA==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.10.2:
-    resolution: {integrity: sha512-xQmmQScspmviROhzervNs1GvfJb3e1mLyeny+H8v92BTyZL2rgQcQyYijEY8xTD/uoE5f7OWdo1/BbYeuOtjEA==}
+  lefthook-windows-x64@1.10.4:
+    resolution: {integrity: sha512-d6jOidPQ8HTmXHH8izE7/BY4ZHAsCVgkfSyQI13rvBahZfPjmtE0yNBfd2MC+xyxW1E8M0uloy7ZhAYM4WZjdw==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.10.2:
-    resolution: {integrity: sha512-rT9NPQFuQfdzfQ2lEWFfrESIBhpoX0OsroRZ1mL11iZ3K8a2B218W4fg7D2A8qpnRHncnGNpmzRVYlVEhIIuwQ==}
+  lefthook@1.10.4:
+    resolution: {integrity: sha512-DwRkvZA7IeZv9hwdXKr0PIi0FX1/2ehU5ImPYCs1q9QlPQVmKBborb/z5BnI5k/y52qaAHCgBhcuhm5cwLjMSQ==}
     hasBin: true
 
   levn@0.4.1:
@@ -3105,48 +3105,48 @@ snapshots:
     dependencies:
       language-subtag-registry: 0.3.23
 
-  lefthook-darwin-arm64@1.10.2:
+  lefthook-darwin-arm64@1.10.4:
     optional: true
 
-  lefthook-darwin-x64@1.10.2:
+  lefthook-darwin-x64@1.10.4:
     optional: true
 
-  lefthook-freebsd-arm64@1.10.2:
+  lefthook-freebsd-arm64@1.10.4:
     optional: true
 
-  lefthook-freebsd-x64@1.10.2:
+  lefthook-freebsd-x64@1.10.4:
     optional: true
 
-  lefthook-linux-arm64@1.10.2:
+  lefthook-linux-arm64@1.10.4:
     optional: true
 
-  lefthook-linux-x64@1.10.2:
+  lefthook-linux-x64@1.10.4:
     optional: true
 
-  lefthook-openbsd-arm64@1.10.2:
+  lefthook-openbsd-arm64@1.10.4:
     optional: true
 
-  lefthook-openbsd-x64@1.10.2:
+  lefthook-openbsd-x64@1.10.4:
     optional: true
 
-  lefthook-windows-arm64@1.10.2:
+  lefthook-windows-arm64@1.10.4:
     optional: true
 
-  lefthook-windows-x64@1.10.2:
+  lefthook-windows-x64@1.10.4:
     optional: true
 
-  lefthook@1.10.2:
+  lefthook@1.10.4:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.10.2
-      lefthook-darwin-x64: 1.10.2
-      lefthook-freebsd-arm64: 1.10.2
-      lefthook-freebsd-x64: 1.10.2
-      lefthook-linux-arm64: 1.10.2
-      lefthook-linux-x64: 1.10.2
-      lefthook-openbsd-arm64: 1.10.2
-      lefthook-openbsd-x64: 1.10.2
-      lefthook-windows-arm64: 1.10.2
-      lefthook-windows-x64: 1.10.2
+      lefthook-darwin-arm64: 1.10.4
+      lefthook-darwin-x64: 1.10.4
+      lefthook-freebsd-arm64: 1.10.4
+      lefthook-freebsd-x64: 1.10.4
+      lefthook-linux-arm64: 1.10.4
+      lefthook-linux-x64: 1.10.4
+      lefthook-openbsd-arm64: 1.10.4
+      lefthook-openbsd-x64: 1.10.4
+      lefthook-windows-arm64: 1.10.4
+      lefthook-windows-x64: 1.10.4
 
   levn@0.4.1:
     dependencies:
