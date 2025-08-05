@@ -45,6 +45,9 @@ importers:
       eslint-plugin-import:
         specifier: ^2.29.0
         version: 2.32.0(@typescript-eslint/parser@8.39.0(eslint@9.32.0)(typescript@5.9.2))(eslint-import-resolver-typescript@3.10.1)(eslint@9.32.0)
+      eslint-plugin-react:
+        specifier: ^7.37.5
+        version: 7.37.5(eslint@9.32.0)
       lefthook:
         specifier: ^1.8.0
         version: 1.12.2
