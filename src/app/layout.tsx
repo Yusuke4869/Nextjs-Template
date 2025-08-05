@@ -1,5 +1,5 @@
 import { Noto_Sans_JP } from "next/font/google";
-import "~/styles/globals.css";
+import "../styles/globals.css";
 
 import type { FC, PropsWithChildren } from "react";
 
