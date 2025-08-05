@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
-          node-version-file: package.json
+          node-version-file: .nvmrc
 
       - name: Setup pnpm
         run: corepack enable pnpm
