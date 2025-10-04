@@ -9,7 +9,7 @@ import pluginNext from "@next/eslint-plugin-next";
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   {
-    ignores: ["node_modules", ".next"],
+    ignores: ["node_modules", ".next", "next-env.d.ts", "eslint.config.mjs"],
   },
   eslint.configs.recommended,
   {
