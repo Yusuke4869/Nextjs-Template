@@ -11,11 +11,10 @@ export default [
   {
     ignores: ["node_modules", ".next"],
   },
+  eslint.configs.recommended,
   {
     rules: {
-      ...eslint.configs.recommended.rules,
       "no-console": "warn",
-      "no-use-before-define": "error",
       "prefer-template": "error",
     },
   },
@@ -27,6 +26,13 @@ export default [
         projectService: true,
         tsconfigRootDir: import.meta.dirname,
       },
+    },
+  },
+  {
+    files: ["**/*.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/no-use-before-define": "error",
+      "@typescript-eslint/consistent-type-imports": "error",
     },
   },
   {
