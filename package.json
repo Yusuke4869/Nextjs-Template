@@ -30,7 +30,7 @@
     "eslint-import-resolver-typescript": "^4.0.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^6.0.0",
+    "eslint-plugin-react-hooks": "^7.0.0",
     "lefthook": "^1.8.0",
     "prettier": "^3.3.3",
     "react-scan": "^0.4.3",
