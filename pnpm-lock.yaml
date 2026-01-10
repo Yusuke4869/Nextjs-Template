@@ -29,7 +29,7 @@ importers:
         version: 24.10.6
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.7
+        version: 19.2.8
       '@typescript-eslint/parser':
         specifier: ^8.0.0
         version: 8.52.0(eslint@9.39.2)(typescript@5.9.3)
@@ -59,7 +59,7 @@ importers:
         version: 3.7.4
       react-scan:
         specifier: ^0.4.3
-        version: 0.4.3(@types/react@19.2.7)(next@16.1.1(@babel/core@7.28.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        version: 0.4.3(@types/react@19.2.8)(next@16.1.1(@babel/core@7.28.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       typescript:
         specifier: ^5.5.3
         version: 5.9.3
@@ -657,8 +657,8 @@ packages:
     peerDependencies:
       '@types/react': '*'
 
-  '@types/react@19.2.7':
-    resolution: {integrity: sha512-MWtvHrGZLFttgeEj28VXHxpmwYbor/ATPYbBfSFZEIRK0ecCFLl2Qo55z52Hss+UV9CRN7trSeq1zbgx7YDWWg==}
+  '@types/react@19.2.8':
+    resolution: {integrity: sha512-3MbSL37jEchWZz2p2mjntRZtPt837ij10ApxKfgmXCTuHWagYg7iA5bqPw6C8BMPfwidlvfPI/fxOc42HLhcyg==}
 
   '@typescript-eslint/eslint-plugin@8.52.0':
     resolution: {integrity: sha512-okqtOgqu2qmZJ5iN4TWlgfF171dZmx2FzdOv2K/ixL2LZWDStL8+JgQerI2sa8eAEfoydG9+0V96m7V+P8yE1Q==}
@@ -2609,11 +2609,11 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/react-reconciler@0.28.9(@types/react@19.2.7)':
+  '@types/react-reconciler@0.28.9(@types/react@19.2.8)':
     dependencies:
-      '@types/react': 19.2.7
+      '@types/react': 19.2.8
 
-  '@types/react@19.2.7':
+  '@types/react@19.2.8':
     dependencies:
       csstype: 3.2.3
 
@@ -2863,9 +2863,9 @@ snapshots:
 
   baseline-browser-mapping@2.9.11: {}
 
-  bippy@0.3.17(@types/react@19.2.7)(react@19.2.3):
+  bippy@0.3.17(@types/react@19.2.8)(react@19.2.3):
     dependencies:
-      '@types/react-reconciler': 0.28.9(@types/react@19.2.7)
+      '@types/react-reconciler': 0.28.9(@types/react@19.2.8)
       react: 19.2.3
     transitivePeerDependencies:
       - '@types/react'
@@ -3870,7 +3870,7 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-scan@0.4.3(@types/react@19.2.7)(next@16.1.1(@babel/core@7.28.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+  react-scan@0.4.3(@types/react@19.2.8)(next@16.1.1(@babel/core@7.28.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       '@babel/core': 7.28.0
       '@babel/generator': 7.28.0
@@ -3881,7 +3881,7 @@ snapshots:
       '@preact/signals': 1.3.2(preact@10.27.0)
       '@rollup/pluginutils': 5.2.0
       '@types/node': 20.19.28
-      bippy: 0.3.17(@types/react@19.2.7)(react@19.2.3)
+      bippy: 0.3.17(@types/react@19.2.8)(react@19.2.3)
       esbuild: 0.25.8
       estree-walker: 3.0.3
       kleur: 4.1.5
