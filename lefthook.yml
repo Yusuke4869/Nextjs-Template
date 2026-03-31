@@ -2,9 +2,9 @@ pre-commit:
   parallel: true
   commands:
     lint:
-      glob: "*.{ts,tsx}"
-      run: pnpm lint
+      glob: "*.ts"
+      run: pnpm eslint --fix {staged_files}
       stage_fixed: true
     format:
-      run: pnpm fmt
+      run: pnpm prettier --write --ignore-unknown {staged_files}
       stage_fixed: true

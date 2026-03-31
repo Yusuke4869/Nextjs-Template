@@ -1,10 +1,11 @@
 import eslint from "@eslint/js";
-import tseslint from "typescript-eslint";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+import pluginImport from "eslint-plugin-import";
 import pluginReact from "eslint-plugin-react";
 import pluginReactHooks from "eslint-plugin-react-hooks";
-import pluginImport from "eslint-plugin-import";
 import prettier from "eslint-config-prettier";
-import pluginNext from "@next/eslint-plugin-next";
+import tseslint from "typescript-eslint";
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
@@ -12,14 +13,16 @@ export default [
     ignores: ["node_modules", ".next", "next-env.d.ts", "eslint.config.mjs"],
   },
   eslint.configs.recommended,
+  ...nextVitals,
+  ...nextTs,
+  ...tseslint.configs.strictTypeChecked,
+  ...tseslint.configs.stylisticTypeChecked,
   {
     rules: {
       "no-console": "warn",
       "prefer-template": "error",
     },
   },
-  ...tseslint.configs.strictTypeChecked,
-  ...tseslint.configs.stylisticTypeChecked,
   {
     languageOptions: {
       parserOptions: {
@@ -29,7 +32,7 @@ export default [
     },
   },
   {
-    files: ["**/*.{ts,tsx}"],
+    files: ["**/*.ts", "**/*.tsx"],
     rules: {
       "@typescript-eslint/no-use-before-define": "error",
       "@typescript-eslint/consistent-type-imports": "error",
@@ -37,11 +40,10 @@ export default [
   },
   {
     files: ["**/*.tsx"],
-    plugins: pluginReact.configs.flat.recommended.plugins,
     languageOptions: pluginReact.configs.flat.recommended.languageOptions,
     rules: {
-      ...pluginReact.configs.recommended.rules,
-      ...pluginReact.configs["jsx-runtime"].rules,
+      ...pluginReact.configs.flat.recommended.rules,
+      ...pluginReact.configs.flat["jsx-runtime"].rules,
       "react/jsx-sort-props": "error",
       "react/prop-types": "off",
     },
@@ -52,27 +54,13 @@ export default [
     },
   },
   {
-    files: ["**/*.{ts,tsx}"],
-    plugins: {
-      "react-hooks": pluginReactHooks,
-    },
+    files: ["**/*.ts", "**/*.tsx"],
     rules: {
       ...pluginReactHooks.configs.recommended.rules,
     },
   },
   {
-    files: ["**/*.{js,mjs,ts,tsx}"],
-    plugins: {
-      "@next/next": pluginNext,
-    },
-    rules: {
-      ...pluginNext.configs.recommended.rules,
-      ...pluginNext.configs["core-web-vitals"].rules,
-    },
-  },
-  {
-    files: ["**/*.{ts,tsx}"],
-    plugins: pluginImport.flatConfigs.recommended.plugins,
+    files: ["**/*.ts", "**/*.tsx"],
     rules: {
       ...pluginImport.flatConfigs.recommended.rules,
       ...pluginImport.flatConfigs.typescript.rules,
